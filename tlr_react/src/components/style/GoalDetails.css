@@ -1,0 +1,72 @@
+#data-view {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: auto;
+  align-content: flex-start;
+  padding: 0px 10px 0px 10px;
+  height: 100%;
+  column-gap: 20px;
+  width:25%;
+}
+
+#data-view * {
+  box-sizing: border-box;
+}
+
+.sidebar {
+  height: 100vh;
+}      
+
+#goals-back {
+  padding: 10px 0; 
+}
+
+#goals-view {
+  padding: 20px 20px;
+  background-color: rgb(244, 244, 244);
+}
+
+#milestones-view {
+  padding: 20px 20px;
+  background-color: rgb(244, 244, 244);
+}
+
+#smashs-view {
+  padding: 20px 20px;
+  background-color: rgb(244, 244, 244);
+  height: 800px;
+  overflow-y: scroll;
+
+}
+#scores {
+  color: rgb(1, 1, 137);
+  font-weight: bold;
+}
+
+.formWrap {
+  padding: 5px 0;
+}
+
+#update-button {
+	background: transparent !important;
+	border: none !important;
+	color:#262626 !important;
+	font-family:Arial !important;
+	font-size:16px !important;
+  font-weight: 400 !important;
+	text-decoration:none !important;
+  border:1px solid #262626 !important;
+  width: auto !important; 
+  float: right !important;
+  padding: 10px, 20px !important;
+}
+
+.update-button:hover {
+  background:linear-gradient(to bottom, #d3d3d3 5%, #f6f6f6 100%);
+  background-color:#dedede;
+}
+
+
+
